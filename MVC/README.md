@@ -124,7 +124,7 @@ Language : `C#` <br/>
     </code></pre>
 13. Now `DbContext` can be injected in `Controller` and can be used to access database.
 14. Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
-15. Pass transactional data to `Views` using Models.
+15. Pass transactional data to `Views` using `Models`.
 
 ## References
 

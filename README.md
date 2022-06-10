@@ -11,11 +11,10 @@ Language : `C#` <br/>
 
 ### **Pre-Requisites**
 
-<code>
-- Visual Studio IDE<br/>
-- Microsoft SQL Server<br/>
+- Visual Studio IDE
+- Microsoft SQL Server
 - Azure Data Studio / SQL Server Management Studio (SSMS) / SSDT for Visual Studio
-</code>
+  <br/>
 
 ## **Scenario**
 

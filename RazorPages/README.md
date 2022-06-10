@@ -115,7 +115,7 @@ Language : `C#` <br/>
 13. Now `DbContext` can be injected in `Page .cs file (page.cshml.cs)` and can be used to access database.
 14. Create Razor Page under Pages with Folder Organization with either `Razor Page with Entity Framework Core (CRUD)` or `Razor Page Empty`.
 15. [OPTIONAL] Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
-16. Pass transactional data to `Pages` using Models.
+16. Pass transactional data to `Pages` using `Models`.
 
 ## References
 
