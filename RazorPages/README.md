@@ -4,7 +4,7 @@
 
 </div>
 
-In this approach, we create database first then model our entities either manually or using scaffolding. This approach is useful when we work with an existing databases.
+In this approach, we model our entities and database context. Then either using Migrations or DB Initializer, we create the database.
 
 Razor Pages can make coding page-focused scenarios easier and more productive than using controllers and views.
 
