@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{CE67
 		Scripts\efcore-codefirst-approach-data.sql = Scripts\efcore-codefirst-approach-data.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.CodeFirst.Sample.Library", "Library\DotNet.EFCore.CodeFirst.Sample.Library\DotNet.EFCore.CodeFirst.Sample.Library.csproj", "{A571F7FB-AC4A-4B0F-BCA2-62EAE6B33648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.CodeFirst.Library", "Library\DotNet.EFCore.CodeFirst.Library\DotNet.EFCore.CodeFirst.Library.csproj", "{A571F7FB-AC4A-4B0F-BCA2-62EAE6B33648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.CodeFirst.Sample.MvcApp", "MVC\DotNet.EFCore.CodeFirst.Sample.MvcApp\DotNet.EFCore.CodeFirst.Sample.MvcApp.csproj", "{926E2488-988F-497D-B9A7-761350C1EC4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.CodeFirst.MvcApp", "MVC\DotNet.EFCore.CodeFirst.MvcApp\DotNet.EFCore.CodeFirst.MvcApp.csproj", "{926E2488-988F-497D-B9A7-761350C1EC4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.CodeFirst.Sample.RazorApp", "RazorPages\DotNet.EFCore.CodeFirst.Sample.RazorApp\DotNet.EFCore.CodeFirst.Sample.RazorApp.csproj", "{CE065434-3C59-40F0-8FD4-5669D021D542}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.EFCore.CodeFirst.RazorApp", "RazorPages\DotNet.EFCore.CodeFirst.RazorApp\DotNet.EFCore.CodeFirst.RazorApp.csproj", "{CE065434-3C59-40F0-8FD4-5669D021D542}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

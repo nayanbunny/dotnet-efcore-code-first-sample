@@ -44,7 +44,7 @@ Language : `C#` <br/>
    <pre><code style="color:#00aaaa">"ConnectionStrings": {
        "DefaultConnection": "Server={ServerName};Database={DatabaseName};Integrated Security=True"
    }</code></pre>
-3. Run `DotNet.EFCore.CodeFirst.Sample.MvcApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
+3. Run `DotNet.EFCore.CodeFirst.MvcApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
 
 ## **Implementation Steps**
 
@@ -61,7 +61,7 @@ Language : `C#` <br/>
    }</code></pre>
 5. Create `Models` and `Database Context`. Update `OnConfiguring` method in DbContext for getting connection string from JSON config file or some secure vault like Azure Key Vault etc.
 
-6. Launch `Package Manager Console`. Choose project with EF NuGet Packages Installed (E.g., `DotNet.EFCore.CodeFirst.Sample.MvcApp`) as `Default` and `Startup` Project.
+6. Launch `Package Manager Console`. Choose project with EF NuGet Packages Installed (E.g., `DotNet.EFCore.CodeFirst.MvcApp`) as `Default` and `Startup` Project.
 
    <pre><code style="color:#00aaaa">Visual Studio IDE --> Tools --> NuGet Package Manager --> Package Manager Console</code></pre>
 
@@ -116,15 +116,14 @@ Language : `C#` <br/>
     EntityFrameworkCore\Add-Migration {MigrationName}
     EntityFrameworkCore\Update-Database -Verbose</code></pre>
 
-11. Run `DotNet.EFCore.CodeFirst.Sample.MvcApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
-
-12. Register DbContext and DB Initializer in Application Builder Services Collection before performing Application Build either in `Program.cs` or `Startup.cs`.
+11. Register DbContext and DB Initializer in Application Builder Services Collection before performing Application Build either in `Program.cs` or `Startup.cs`.
     <pre><code style="color:#00aaaa">builder.Services.AddDbContext<{DB Context Name}>();
     MyDbInitializer.Initialize(new {DB Context Name}());</code></pre>
     </code></pre>
-13. Now `DbContext` can be injected in `Controller` and can be used to access database.
-14. Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
-15. Pass transactional data to `Views` using `Models`.
+12. Now `DbContext` can be injected in `Controller` and can be used to access database.
+13. Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
+14. Pass transactional data to `Views` using `Models`.
+15. Run `DotNet.EFCore.CodeFirst.MvcApp` project. Check `CRUD (Create-Read-Update-Delete)` operations against database using `Entity Framework Core`.
 
 ## References
 
