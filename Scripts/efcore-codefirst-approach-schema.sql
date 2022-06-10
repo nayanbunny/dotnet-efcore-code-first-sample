@@ -1,7 +1,7 @@
-﻿CREATE DATABASE EFCoreDBFirstDatabase
+﻿CREATE DATABASE EFCoreCodeFirstDatabase
 GO
 
-USE EFCoreDBFirstDatabase;
+USE EFCoreCodeFirstDatabase;
 
 -- Create Skills Table
 CREATE TABLE [dbo].[Skills](
