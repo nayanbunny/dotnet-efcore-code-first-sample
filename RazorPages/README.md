@@ -50,7 +50,7 @@ Language : `C#` <br/>
        "DefaultConnection": "{SQL Connection String}"
    }</code></pre>
 5. Create `Models` and `Database Context`. Update `OnConfiguring` method in DbContext for getting connection string from JSON config file or some secure vault like Azure Key Vault etc.
-
+   <pre><code style="color:#00aaaa">optionsBuilder.UseSqlServer(connectionString, options => options.EnableRetryOnFailure());</code></pre>
 6. Launch `Package Manager Console`. Choose project with EF NuGet Packages Installed (E.g., `DotNet.EFCore.CodeFirst.RazorApp`) as `Default` and `Startup` Project.
 
    <pre><code style="color:#00aaaa">Visual Studio IDE --> Tools --> NuGet Package Manager --> Package Manager Console</code></pre>
