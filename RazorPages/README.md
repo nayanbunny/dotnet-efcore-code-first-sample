@@ -109,7 +109,6 @@ Language : `C#` <br/>
 11. Register DbContext and DB Initializer in Application Builder Services Collection before performing Application Build either in `Program.cs` or `Startup.cs`.
     <pre><code style="color:#00aaaa">builder.Services.AddDbContext<{DB Context Name}>();
     MyDbInitializer.Initialize(new {DB Context Name}());</code></pre>
-    </code></pre>
 12. Now `DbContext` can be injected in `Page .cs file (page.cshml.cs)` and can be used to access database.
 13. Create Razor Page under Pages with Folder Organization with either `Razor Page with Entity Framework Core (CRUD)` or `Razor Page Empty`.
 14. [OPTIONAL] Implement either `Repository/Unit of Work(UoW)/Factory Pattern etc`., to separte operations based on entity using injected `DbContext`.
